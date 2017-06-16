@@ -9,6 +9,9 @@ def basic_white():
     crust sandwich loaf and others.
 
     Unit is metric, in grams.
+
+    Original recipe was intended for
+    four 1 pound loafs
     '''
 
     # Specify recipe input
@@ -18,6 +21,7 @@ def basic_white():
     salt_t = 'kosher'
     flour_q = 910
     flour_t = 'all_purpose'
+    how_much = 4
 
     # Instructions
     Step_1 = (
