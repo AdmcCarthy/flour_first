@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 
-def choose_which_bread(flour_t, flour_w, bread_t, baby=true):
+def choose_which_bread(flour_t, flour_w, bread_t, how_much=6, baby=true):
     """Like choose youré own
     adventure but with more
     bread.
@@ -15,6 +15,9 @@ def choose_which_bread(flour_t, flour_w, bread_t, baby=true):
 
     bread_t is the type of bread
     that´s wanted.
+
+    how_much sets how many portions
+    as specified as small simple loafs.
 
     baby=True implies this recipe
     should be suitable for a small
